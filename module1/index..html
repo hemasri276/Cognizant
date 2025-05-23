@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community Event Board</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1> Community Event Board</h1>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="searchInput" placeholder="Search by title..." />
+    
+    <label for="categoryFilter">Category:</label>
+    <select id="categoryFilter">
+      <option value="">All</option>
+      <option value="music">Music</option>
+      <option value="market">Market</option>
+      <option value="art">Art</option>
+      <option value="meeting">Meeting</option>
+    </select>
+  </section>
+
+  <main id="mainContent"></main>
+
+  <footer>
+    <p>&copy; 2025 Community Hub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
